@@ -1,14 +1,10 @@
 
-# Hardware Design Specifications 
+# Metal Detector MicroBlaze Architecture
 
 ### Hardware: 
 * Artix-7 Basys3 FPGA Board
 
-### Features: 
-* Upgraded ALU to support division and multiplication
-* Custom IP peripherals to handle pmod, ultrasonic sensing and post width modulation
-* Barrel Shifting to conserve clock cycles
-* GPIO peripherals in order for hardware-software interaction, using Memory Mapped I/O
-* Memory Mapped I/O Registers configured for easy hardware access
+### Key Features: 
+* **MicroBlaze Processor:** Configured with a hardware divider, 64 bit multiplier and a barrel shifter to optimize bitwise math required for digital figuring and 7-segment display multiplexing. The processor executes firmware entirely from local BRAM (`microblaze_0_local_memory`).
 
 
