@@ -1,0 +1,52 @@
+# =========================
+# Vivado Hardware Artifacts
+# =========================
+# Ignore the heavy build runs (Synthesis and Implementation)
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+
+# Ignore temporary Xilinx files and local IP files
+.Xil/
+*.ip_user_files/
+manage_ip_project/
+
+# Ignore logs and journals
+*.jou
+*.log
+*.str
+*.pb
+*.wdf
+*.dir/
+
+# Ignore generated bitstreams (unless you specifically want to track releases)
+*.bit
+*.bin
+
+# =========================
+# Vitis / MicroBlaze C Code
+# =========================
+# Ignore compiled object files and executables
+*.o
+*.d
+*.elf
+
+# Ignore build directories
+Debug/
+Release/
+.metadata/
+
+# Ignore generated hardware platforms and board support packages (BSPs)
+# Note: You usually want to regenerate these locally rather than tracking them
+*_hw_platform*/
+*_bsp*/
+*.xsa
+
+# =========================
+# VS Code & Environment
+# =========================
+.vscode/
+*.swp
+*~
+.DS_Store

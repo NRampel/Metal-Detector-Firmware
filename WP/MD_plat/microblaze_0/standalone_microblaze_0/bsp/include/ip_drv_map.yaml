@@ -1,0 +1,30 @@
+alarm_0:
+- alarm
+- None
+axi_gpio_0:
+- axi_gpio
+- gpio
+axi_gpio_1:
+- axi_gpio
+- gpio
+axi_gpio_2:
+- axi_gpio
+- gpio
+axi_gpio_3:
+- axi_gpio
+- gpio
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram
+pmod_encoder_0:
+- pmod_encoder
+- None
+sensor_0:
+- sensor
+- None
+xadc_wiz_0:
+- xadc_wiz
+- sysmon
