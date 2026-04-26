@@ -11,6 +11,8 @@
     * `led[15:0]`: Drives the 16 bit LED bus, implementing a strength meter
     * `seg[6:0]` & `an[3:0]`: Controls the multiplexed 4-digit 7-segment display for size classification and total object counts.
     * `JB[7:0]` & `dp[0:0]`: Controls additional I/O routing
+* **Custom Made Hardware IP Peripherals:**
+    * `
   
 
 
