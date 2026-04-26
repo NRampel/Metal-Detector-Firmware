@@ -1,3 +1,5 @@
+#include <stdio.h> 
+#include <stdint.h> 
 #include "xil_printf.h"
 #include "basys3.h"
 
@@ -25,6 +27,7 @@ void seg_disp (uint8_t data[4], uint8_t cursor){
 
 
 int main() {
+    uint32_t raw_data = JXADC; 
     init_platform(); 
     while(1) {
         // Metal Detection Logic

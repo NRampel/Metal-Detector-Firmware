@@ -9,3 +9,5 @@ status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../../MicroBlaze/Mi
 
 status = platform.build()
 
+status = platform.build()
+
