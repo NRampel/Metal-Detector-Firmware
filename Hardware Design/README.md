@@ -6,5 +6,11 @@
 
 ### Key Features: 
 * **MicroBlaze Processor:** Configured with a hardware divider, 64 bit multiplier and a barrel shifter to optimize bitwise math required for digital figuring and 7-segment display multiplexing. The processor executes firmware entirely from local BRAM (`microblaze_0_local_memory`).
+* **XADC Wizard (`xadc_wiz_0`):** Reads the raw analog voltage from the Colpitts oscillator circuit via the JXADC PMOD header
+* **AXI GPIO Peripherals:**
+    * `led[15:0]`: Drives the 16 bit LED bus, implementing a strength meter
+    * `seg[6:0]` & `an[3:0]`: Controls the multiplexed 4-digit 7-segment display for size classification and total object counts.
+    * `JB[7:0]` & `dp[0:0]`: Controls additional I/O routing
+  
 
 
