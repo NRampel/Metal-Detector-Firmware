@@ -1,3 +1,4 @@
+#include "xil_printf.h"
 #include "basys3.h"
 
 
@@ -26,7 +27,7 @@ void seg_disp (uint8_t data[4], uint8_t cursor){
 int main() {
     init_platform(); 
     while(1) {
-        
+        // Metal Detection Logic
     }
     cleanup_platform();
     return 0;
