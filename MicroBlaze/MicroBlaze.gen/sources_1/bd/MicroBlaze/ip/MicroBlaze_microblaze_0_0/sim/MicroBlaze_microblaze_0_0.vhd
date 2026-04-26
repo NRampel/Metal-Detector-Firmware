@@ -866,7 +866,7 @@ BEGIN
       G_TEMPLATE_LIST => 0,
       C_USE_MSR_INSTR => 0,
       C_USE_PCMP_INSTR => 0,
-      C_USE_BARREL => 0,
+      C_USE_BARREL => 1,
       C_USE_DIV => 1,
       C_USE_HW_MUL => 2,
       C_USE_FPU => 0,

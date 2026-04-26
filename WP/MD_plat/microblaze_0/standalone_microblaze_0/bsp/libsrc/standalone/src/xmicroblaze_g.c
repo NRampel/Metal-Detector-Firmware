@@ -60,14 +60,14 @@ XMicroblaze_Config XMicroblaze_ConfigTable[] __attribute__ ((section (".drvcfg_s
 		0x0,  /* xlnx,pvr-user2 */
 		0x0,  /* xlnx,reset-msr */
 		0x0,  /* xlnx,sco */
-		0x0,  /* xlnx,use-barrel */
+		0x1,  /* xlnx,use-barrel */
 		0x0,  /* xlnx,use-dcache */
-		0x0,  /* xlnx,use-div */
+		0x1,  /* xlnx,use-div */
 		0x0,  /* xlnx,use-ext-brk */
 		0x0,  /* xlnx,use-ext-nm-brk */
 		0x0,  /* xlnx,use-extended-fsl-instr */
 		0x0,  /* xlnx,use-fpu */
-		0x0,  /* xlnx,use-hw-mul */
+		0x2,  /* xlnx,use-hw-mul */
 		0x0,  /* xlnx,use-icache */
 		0x0,  /* xlnx,use-interrupt */
 		0x0,  /* xlnx,use-mmu */

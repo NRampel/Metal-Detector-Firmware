@@ -32,7 +32,7 @@
 			xlnx,d-lmb-protocol = <0>;
 			xlnx,ill-opcode-exception = <0>;
 			xlnx,dcache-always-used = <1>;
-			xlnx,use-div = <0>;
+			xlnx,use-div = <1>;
 			xlnx,dc-axi-mon = <0>;
 			xlnx,debug-trace-async-reset = <0>;
 			xlnx,trace = <0>;
@@ -83,7 +83,7 @@
 			xlnx,d-lmb-has-prot = <0>;
 			xlnx,edk-special = "microblaze";
 			xlnx,use-dcache = <0>;
-			xlnx,use-barrel = <0>;
+			xlnx,use-barrel = <1>;
 			xlnx,reset-msr-bip = <0>;
 			xlnx,allow-dcache-wr = <1>;
 			xlnx,debug-external-trace = <0>;
@@ -102,7 +102,7 @@
 			xlnx,num-sync-ff-clk = <2>;
 			xlnx,edk-iptype = "PROCESSOR";
 			xlnx,use-stack-protection = <0>;
-			xlnx,use-hw-mul = <0>;
+			xlnx,use-hw-mul = <2>;
 			xlnx,num-sync-ff-dbg-clk = <1>;
 			xlnx,interconnect = <2>;
 			xlnx,i-lmb-has-prot = <0>;
@@ -132,7 +132,7 @@
 			xlnx,lockstep-select = <0>;
 			xlnx,lmb-data-size = <32>;
 			xlnx,ic-axi-mon = <0>;
-			xlnx,enable-conversion = <1>;
+			xlnx,enable-conversion = <0>;
 			xlnx,num-sync-ff-clk-irq = <1>;
 			xlnx,fsl-links = <0>;
 			timebase-frequency = <100000000>;

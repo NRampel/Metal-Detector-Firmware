@@ -155,6 +155,9 @@
         "inst_hier_path": "microblaze_0",
         "has_run_ip_tcl": "true",
         "parameters": {
+          "C_DATA_SIZE": {
+            "value": "32"
+          },
           "C_DEBUG_ENABLED": {
             "value": "1"
           },

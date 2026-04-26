@@ -3,7 +3,7 @@
   "type": "PLATFORM",
   "configuration": {
     "description": "",
-    "xsa": "C:/Metal-Detector-Firmware/MicroBlaze_wrapper.xsa",
+    "xsa": "C:/Metal-Detector-Firmware/MicroBlaze/MicroBlaze_wrapper.xsa",
     "xsaPathInPlatform": "MD_plat/hw/MicroBlaze_wrapper.xsa",
     "emulationXsa": "",
     "emulationXsaPathInPlatform": "",

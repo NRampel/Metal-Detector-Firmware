@@ -10,7 +10,7 @@
       "component_parameters": {
         "C_SCO": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_FREQ": [ { "value": "100000000", "value_src": "propagated", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "C_DATA_SIZE": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_DATA_SIZE": [ { "value": "32", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_LMB_DATA_SIZE": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_ADDR_SIZE": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_DYNAMIC_BUS_SIZING": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
@@ -692,5 +692,5 @@
       }
     }
   },
-  "checksum": "7400519b"
+  "checksum": "8c135458"
 }

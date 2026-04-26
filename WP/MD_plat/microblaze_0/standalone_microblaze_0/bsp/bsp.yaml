@@ -1,7 +1,7 @@
 sdt: hw_artifacts/microblaze_0_baremetal.dts
 family: artix7
 path: C:\Metal-Detector-Firmware\WP\MD_plat\microblaze_0\standalone_microblaze_0\bsp
-config: default
+config: None
 os: standalone
 os_info:
   standalone:
@@ -129,7 +129,8 @@ proc_config:
       permission: readonly
       type: string
       value: '  -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT;-c'
-      default: '  -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT;-c'
+      default: '  -mxl-barrel-shift -mlittle-endian -mno-xl-soft-mul -mxl-multiply-high
+        -mno-xl-soft-div -mcpu=v11.0 -DSDT;-c'
       options: []
       description: Compiler Flags used in BSP and library generation.'-c'flag stands
         for 'compile and assemble, but do not link'.Without this flag, gcc tries to
